@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'       => $prefix.'${1:post_select}', 
+	    'name'     => '${2:Post Select Field}', 
+	    'type'     => 'post_select', 
+	    'use_ajax' => true,
+	    'query' => array( 
+	        'cat' => ${3:8}
+	    )
+	);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:post_select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

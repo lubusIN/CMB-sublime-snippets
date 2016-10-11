@@ -1,0 +1,10 @@
+============================================================
+Thank you for installing CMB Snippets
+============================================================
+Follow us on Twitter: lubusonline------------------------------------------------------------For use with HumanMade’s Custom Meta Boxes for Wordpress.
+
+This package is compatible with both Sublime
+Text versions 2 & 3.
+
+Documentation, examples & issue filing can be found here:
+https://github.com/lubusonline/CMB-sublime-snippets

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'   => $prefix.'${1:title}', 
+	    'name' => '${2:Title Text}', 
+	    'type' => 'title', 
+	),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:title</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

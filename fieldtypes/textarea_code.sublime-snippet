@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'   => $prefix.'${1:textarea_code}', 
+	    'name' => '${2:A textarea code field}', 
+	    'type' => 'textarea_code',
+	    'rows' => 6,
+	), 
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:textarea_code</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
+

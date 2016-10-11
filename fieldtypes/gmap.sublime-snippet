@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'   => $prefix.'${1:gmap}', 
+	    'name' => '${2:Location using google map}', 
+	    'type' 	=> 'gmap', 
+	    'google_api_key ' => '${3:GOOGLE_API_KEY}'
+	),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:gmap</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

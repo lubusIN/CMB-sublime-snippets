@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+	array(
+	    'id'   => $prefix.'${1:wysiwyg}',
+	    'name' => '${2:A WYSIWYG editor field}',
+	    'type' => 'wysiwyg',
+	    'options' => array(
+	        'textarea_rows' => 5
+	    )
+	),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:wysiwyg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
+
+

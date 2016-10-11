@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+	add_filter( 'cmb_meta_boxes', '${1:cmb_sample_metaboxes}' );
+
+	function ${2:cmb_sample_metaboxes}( array $meta_boxes ) {
+		$fields = array(
+			${3:// Add you fields here}
+		);
+
+	    $meta_boxes[] = array(
+	        'title' => '${4:CMB Test - all fields}',
+	        'pages' => '${5:page}',
+	        'show_on' => array( 'id' => array( 1 ) ),
+	        'hide_on' => array( 'page-template' => array( 'test-page-template.php' ) ),
+	        'context'    => 'normal',
+	        'priority'   => 'high',
+	        'fields' => $fields, // an array of fields - see individual field 
+	        'desc'  => '${6:This is the meta box description.}',
+	    );
+
+	    return $meta_boxes; 
+
+	}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:create/</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>text.php</scope>-->
+</snippet>

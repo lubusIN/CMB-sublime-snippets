@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'   => $prefix.'${1:date_unix}', 
+	    'name' => '${2:A unix date field}', 
+	    'type' => 'date_unix', 
+	),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:date_unix</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+	array( 
+	    'id'      => $prefix.'${1:radio}', 
+	    'name'    => '${2:Radio Field}', 
+	    'type'    => 'radio', 
+	    'options' => array(
+	        '${3:option-1}' => '${4:Option 1}',
+	        '${5:option-2}' => '${6:Option 2}',
+	        '${7:option-3}' => '${8:Option 3}',
+	    )
+	),
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cmb:radio</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
+
+
