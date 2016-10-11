@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
-	$group_data = get_post_meta( get_the_id(), '${1:YOUR_GROUP_ID}', true );
+	\$group_data = get_post_meta( get_the_id(), '${1:YOUR_GROUP_ID}', true );
 
-    if ( ! empty( $group_data['${1:YOUR_GROUP_ID}'] ) )
-            echo esc_html( $group_data['${1:YOUR_GROUP_ID}'] );
+    if ( ! empty( \$group_data['${1:YOUR_GROUP_ID}'] ) )
+            echo esc_html( \$group_data['${1:YOUR_GROUP_ID}'] );
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cmb:display_group</tabTrigger>

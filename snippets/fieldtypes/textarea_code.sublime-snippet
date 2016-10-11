@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:textarea_code}', 
+	    'id'   => \$prefix.'${1:textarea_code}', 
 	    'name' => '${2:A textarea code field}', 
 	    'type' => 'textarea_code',
 	    'rows' => 6,

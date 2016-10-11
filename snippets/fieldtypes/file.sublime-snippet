@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:file}', 
+	    'id'   => \$prefix.'${1:file}', 
 	    'name' => '${2:A file field}', 
 	    'type' => 'file', 
 	),

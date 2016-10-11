@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:image}', 
+	    'id'   => \$prefix.'${1:image}', 
 	    'name' => '${2:An image input}', 
 	    'type' => 'image', 
 	),

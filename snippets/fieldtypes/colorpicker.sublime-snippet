@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:colorpicker}', 
+	    'id'   => \$prefix.'${1:colorpicker}', 
 	    'name' => '${2:A color picker input}', 
 	    'type' => 'colorpicker', 
 	),

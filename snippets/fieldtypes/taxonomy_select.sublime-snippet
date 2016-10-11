@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'       => $prefix.'${1:taxonomy_select}', 
+	    'id'       => \$prefix.'${1:taxonomy_select}', 
 	    'name'     => '${2:Taxonomy Select Field}', 
 	    'type'     => 'taxonomy_select', 
 	    'taxonomy' => '${3:category}' 

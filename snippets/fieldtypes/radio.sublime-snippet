@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'      => $prefix.'${1:radio}', 
+	    'id'      => \$prefix.'${1:radio}', 
 	    'name'    => '${2:Radio Field}', 
 	    'type'    => 'radio', 
 	    'options' => array(

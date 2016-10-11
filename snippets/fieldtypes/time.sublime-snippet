@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:time}', 
+	    'id'   => \$prefix.'${1:time}', 
 	    'name' => '${2:A time field}', 
 	    'type' => 'time', 
 	),

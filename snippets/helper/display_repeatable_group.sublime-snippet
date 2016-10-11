@@ -1,13 +1,13 @@
 <snippet>
 	<content><![CDATA[
 	// Note that the 3rd param is false to retrieve all meta entries with the same key (This is false by default)
-	$field_data = get_post_meta( get_the_id(), '${1:REPEATABLE_FIELD_ID}', false );
+	\$field_data = get_post_meta( get_the_id(), '${1:REPEATABLE_FIELD_ID}', false );
 
-	foreach ( $field_data as $group_field ){
-		$group_data = get_post_meta( get_the_id(), '${2:YOUR_GROUP_ID}', true );
+	foreach ( \$field_data as \$group_field ){
+		\$group_data = get_post_meta( get_the_id(), '${2:YOUR_GROUP_ID}', true );
 
-    	if ( ! empty( $group_data['${2:YOUR_GROUP_ID}'] ) )
-            echo esc_html( $group_data['${2:YOUR_GROUP_ID}'] );
+    	if ( ! empty( \$group_data['${2:YOUR_GROUP_ID}'] ) )
+            echo esc_html( \$group_data['${2:YOUR_GROUP_ID}'] );
 	}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

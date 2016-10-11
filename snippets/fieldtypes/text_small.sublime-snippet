@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:text_small}', 
+	    'id'   => \$prefix.'${1:text_small}', 
 	    'name' => '${2:A small text input}', 
 	    'type' => 'text_small', 
 	),

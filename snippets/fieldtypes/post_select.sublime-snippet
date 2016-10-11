@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'       => $prefix.'${1:post_select}', 
+	    'id'       => \$prefix.'${1:post_select}', 
 	    'name'     => '${2:Post Select Field}', 
 	    'type'     => 'post_select', 
 	    'use_ajax' => true,

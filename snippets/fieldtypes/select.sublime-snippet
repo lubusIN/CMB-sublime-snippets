@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'      => $prefix.'${1:select}', 
+	    'id'      => \$prefix.'${1:select}', 
 	    'name'    => '${2:Select Field}', 
 	    'type'    => 'select', 
 	    'options' => array(

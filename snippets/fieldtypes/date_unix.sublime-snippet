@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array( 
-	    'id'   => $prefix.'${1:date_unix}', 
+	    'id'   => \$prefix.'${1:date_unix}', 
 	    'name' => '${2:A unix date field}', 
 	    'type' => 'date_unix', 
 	),

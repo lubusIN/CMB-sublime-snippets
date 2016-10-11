@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 	array(
-	    'id'   => $prefix.'${1:wysiwyg}',
+	    'id'   => \$prefix.'${1:wysiwyg}',
 	    'name' => '${2:A WYSIWYG editor field}',
 	    'type' => 'wysiwyg',
 	    'options' => array(
