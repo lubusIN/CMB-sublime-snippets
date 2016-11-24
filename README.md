@@ -14,7 +14,7 @@ HumanMade's Custom Meta Box is an important part of our wordpress development wo
 
 Installation
 ------------
-**# Easy installation** *(Pending Approval)*
+**# Easy installation**
 
 You can install this awesome snippets through the [Package Control](https://packagecontrol.io/installation).
 
