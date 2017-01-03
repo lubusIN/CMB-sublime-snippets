@@ -2,22 +2,22 @@
 	<content><![CDATA[
 	add_filter( 'cmb_meta_boxes', '${1:cmb_sample_metaboxes}' );
 
-	function ${2:cmb_sample_metaboxes}( array $meta_boxes ) {
-		\$prefix = "${3:YOUR_PREFIX_}"
+	function ${1:cmb_sample_metaboxes}( array \$meta_boxes ) {
+		\$prefix = '${2:_YOUR_PREFIX_}';
 
 		\$fields = array(
-			// Add you fields here
+			// Add your fields here
 		);
 
 	    \$meta_boxes[] = array(
-	        'title' => '${4:CMB Test - all fields}',
+	        'title' => __( '${3:CMB Test - all fields}', '${4:textdomain}' ),
 	        'pages' => '${5:page}',
-	        'show_on' => array( 'id' => array( 1 ) ),
-	        'hide_on' => array( 'page-template' => array( 'test-page-template.php' ) ),
+	        ${6:'show_on' => array( 'id' => array( 1 ) ),}
+	        ${7:'hide_on' => array( 'page-template' => array( 'test-page-template.php' ) ),}
 	        'context'    => 'normal',
 	        'priority'   => 'high',
 	        'fields' => \$fields, // an array of fields - see individual field 
-	        'desc'  => '${6:This is the meta box description.}',
+	        ${9:'desc'  => __( '${8:This is the meta box description.}', '${4:textdomain}' ),}
 	    );
 
 	    return \$meta_boxes; 
