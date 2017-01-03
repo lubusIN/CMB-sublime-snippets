@@ -3,15 +3,15 @@
 	add_filter( 'cmb_meta_boxes', '${1:cmb_sample_metaboxes}' );
 
 	function ${1:cmb_sample_metaboxes}( array $meta_boxes ) {
-		\$prefix = '${3:YOUR_PREFIX_}';
+		\$prefix = '${2:_YOUR_PREFIX_}';
 
 		\$fields = array(
 			// Add you fields here
 		);
 
 	    \$meta_boxes[] = array(
-	        'title' => '${4:CMB Test - all fields}',
-	        'pages' => '${5:page}',
+	        'title' => '${3:CMB Test - all fields}',
+	        'pages' => '${4:page}',
 	        'show_on' => array( 'id' => array( 1 ) ),
 	        'hide_on' => array( 'page-template' => array( 'test-page-template.php' ) ),
 	        'context'    => 'normal',
