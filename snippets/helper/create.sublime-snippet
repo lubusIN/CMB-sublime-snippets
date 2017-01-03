@@ -2,7 +2,7 @@
 	<content><![CDATA[
 	add_filter( 'cmb_meta_boxes', '${1:cmb_sample_metaboxes}' );
 
-	function ${2:cmb_sample_metaboxes}( array $meta_boxes ) {
+	function ${1:cmb_sample_metaboxes}( array $meta_boxes ) {
 		\$prefix = "${3:YOUR_PREFIX_}"
 
 		\$fields = array(
