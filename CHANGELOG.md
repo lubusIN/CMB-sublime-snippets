@@ -1,6 +1,14 @@
 **Change Log**
 ----------
 
+**v0.1.3**
+
+Released on 10th January 2017
+
+Bugfixes
+- cmb:display_repeatable_group tab trigger fixed
+- cmb:display_repeatable tab trigger fixed
+
 **v0.1.2**
 
 Released on 4th January 2017
