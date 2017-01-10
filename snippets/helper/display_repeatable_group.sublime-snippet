@@ -11,5 +11,5 @@
 	}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cmb:display_group</tabTrigger>
+	<tabTrigger>cmb:display_repeatable_group</tabTrigger>
 </snippet>
