@@ -1,12 +1,14 @@
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/1039236/24427602/38d494a6-1429-11e7-80be-6da3451d7e20.png"></p>
 
 <p align="center">
-<a href="https://github.com/lubusIN/CMB-sublime-snippets/releases"><img src="https://img.shields.io/github/release/lubusIN/CMB-sublime-snippets.svg?style=flat-square" alt="Latest Stable Version"></a> <a href="https://wordpress.org/plugins/wc-dashboard-widget/"><img src="https://img.shields.io/wordpress/plugin/dt/wc-dashboard-widget.svg" alt="Downloads"></a> <a href="https://wordpress.org/plugins/wc-dashboard-widget/"><img src="https://img.shields.io/wordpress/plugin/r/wc-dashboard-widget.svg" alt="Rating"></a> <a href="https://wordpress.org/plugins/wc-dashboard-widget/"><img src="https://img.shields.io/aur/license/yaourt.svg" alt="Licence"></a>
+<a href="https://github.com/lubusIN/CMB-sublime-snippets/releases"><img src="https://img.shields.io/github/release/lubusIN/CMB-sublime-snippets.svg?style=flat-square" alt="Latest Stable Version"></a> <a href="https://packagecontrol.io/packages/CMB%20snippets"><img src="https://img.shields.io/packagecontrol/dt/CMB%20snippets.svg" alt="Downloads"></a> <a href="https://wordpress.org/plugins/wc-dashboard-widget/"><img src="https://img.shields.io/aur/license/yaourt.svg" alt="Licence"></a>
 </p>
 
 **Introduction**
 --------------------
 For use with [HumanMade's Custom Meta Boxes](https://github.com/humanmade/Custom-Meta-Boxes/) for [Wordpress](wordpress.org)
+
+![CMB Sublime Snippets](https://cloud.githubusercontent.com/assets/1039236/19284518/ce8d1760-9013-11e6-9d01-6a6c721af758.gif)
 
 About
 ---------
