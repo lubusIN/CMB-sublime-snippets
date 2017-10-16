@@ -62,8 +62,8 @@ Snippets
 | cmb:textarea 		   | Generate textarea field	    		|
 | cmb:textarea_code    | Generate textarea for code   			|
 | cmb:select 		   | Generate select field   			  	|
-| cmb:taxonomy_select  | Generate wordpress taxonomy select   	|
-| cmb:post_select 	   | Generate wordpress post select		  	|
+| cmb:taxonomy_select  | Generate WordPress taxonomy select   	|
+| cmb:post_select 	   | Generate WordPress post select		  	|
 | cmb:file 		       | Generate file upload field				|
 | cmb:image 		   | Generate image upload field		  	|
 | cmb:checkbox 		   | Generate checkbox field  				|
