@@ -15,6 +15,9 @@ About
 
 HumanMade's Custom Meta Box is an important part of our WordPress development workflow. We extensively use it on majority of our projects to craft beautiful custom back ends which are easy to use. To speed our workflow we created these sublime snippets. Recently we updated snippets to be inline with CMB and thought to share it with other fellow developers. We will actively keep improving this snippets.
 
+>**Atom:** Atom User ? no worries you are covered, snippets are available [here](https://github.com/lubusIN/CMB-Atom-Snippets).
+
+
 Installation
 ------------
 **# Easy installation**
