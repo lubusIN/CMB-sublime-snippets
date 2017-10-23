@@ -80,7 +80,7 @@ Snippets
 **Contributing**
 ----------------
 
-Thank you for considering contributing to the WordCamp Dashboard Widget. You can read the contribution guide lines [here](CONTRIBUTING.md)
+Thank you for considering contributing to the "CMB Sublime Snippets". You can read the contribution guide lines [here](CONTRIBUTING.md)
 
 You can check the [task list](https://github.com/lubusIN/CMB-sublime-snippets/projects/1) for contribution ideas.
 
