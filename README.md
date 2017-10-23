@@ -17,6 +17,11 @@ HumanMade's Custom Meta Box is an important part of our WordPress development wo
 
 >**Atom:** Atom User ? no worries you are covered, snippets are available [here](https://github.com/lubusIN/CMB-Atom-Snippets).
 
+Mentions
+----------
+
+https://asphaltthemes.com/sublime-text-wordpress-extensions/
+
 
 Installation
 ------------
