@@ -8,7 +8,7 @@
 	    'query' => array( 
 	        'cat' => ${3:8}
 	    )
-	);
+	),
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>cmb:post_select</tabTrigger>
